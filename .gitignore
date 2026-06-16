@@ -13,7 +13,7 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
-*.ipynb
+
 
 # ============================================
 # Environment & Secrets
