@@ -1,0 +1,27 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+virtualenv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.*
+
+# Riot API Keys
+riot_api_key*
+api_key*
+*_api_key
