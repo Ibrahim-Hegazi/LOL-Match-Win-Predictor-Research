@@ -1,0 +1,1 @@
+League of Legends Win Prediction Dataset==================================================Total matches: 2000Total features (original): 1254Features after SULOV: 1050Final selected features: 15T1 win rate: 0.463Best model: VotR
