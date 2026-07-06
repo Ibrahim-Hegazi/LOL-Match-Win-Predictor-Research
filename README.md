@@ -8,7 +8,6 @@ A comprehensive machine learning pipeline for predicting League of Legends match
 - [Overview](#overview)
 - [Research Questions](#research-questions)
 - [Key Findings](#key-findings)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Data Collection](#data-collection)
 - [Usage](#usage)
@@ -55,43 +54,6 @@ This project develops and validates a complete machine learning pipeline for pre
 5. **The Ridge Paradox:** Ridge achieves highest accuracy (96.5%) but lowest R² (0.755) due to conservative probability estimates
 6. **Ensemble benefit is modest:** Voting improves R² by only 0.002 over best individual model (CatBoost)
 
----
-
-## Project Structure
-
-```
-LOL-Match-Win-Predictor/
-│
-├── data/
-│   └── data collected/
-│       ├── player ids/          # Player PUUIDs by tier/division
-│       ├── match ids/           # Collected match IDs
-│       └── flattened/           # Final CSV datasets
-│           ├── teams_stats_merged_*.csv
-│           └── match_data_merged_*.csv
-│
-├── notebooks/
-│   ├── 1_data_collection_player_ids.ipynb
-│   ├── 2_data_collection_match_ids.ipynb
-│   ├── 3_data_collection_match_data.ipynb
-│   └── 4_model_training_evaluation.ipynb
-│
-├── output/
-│   ├── model_comparison_results.csv
-│   ├── feature_importance.csv
-│   ├── selected_features.txt
-│   ├── dataset_info.txt
-│   ├── correlation_matrix_sulov.png
-│   ├── top_features_correlation.png
-│   ├── model_comparison.png
-│   ├── stability_analysis_boxplots.png
-│   ├── shap_feature_importance.png
-│   └── shap_summary_plot.png
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
 
 ---
 
@@ -111,28 +73,13 @@ cd LOL-Match-Win-Predictor
 
 # Create virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
+# source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate   # Windows
 
 # Install dependencies
 pip install -r requirements.txt
 ```
 
-### Requirements
-
-```
-pandas>=2.0.0
-numpy>=1.24.0
-scipy>=1.10.0
-scikit-learn>=1.3.0
-xgboost>=2.0.0
-catboost>=1.2.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-shap>=0.42.0
-requests>=2.31.0
-python-dotenv>=1.0.0
-```
 
 ---
 
