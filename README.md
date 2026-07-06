@@ -412,7 +412,7 @@ If you use this work in your research, please cite:
 
 📧 ihegaziwork
 
-🔗 [GitHub Repository]([https://github.com/yourusername/LOL-Match-Win-Predictor](https://github.com/Ibrahim-Hegazi)])
+🔗 [GitHub Repository]((https://github.com/Ibrahim-Hegazi))
 
 ---
 
