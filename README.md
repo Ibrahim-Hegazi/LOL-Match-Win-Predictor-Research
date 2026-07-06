@@ -18,7 +18,6 @@ A comprehensive machine learning pipeline for predicting League of Legends match
 - [Limitations](#limitations)
 - [Future Work](#future-work)
 - [Citation](#citation)
-- [License](#license)
 
 ---
 
