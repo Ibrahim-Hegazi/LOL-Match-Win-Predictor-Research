@@ -319,22 +319,7 @@ Ridge Regression achieves the highest accuracy (96.5%) but lowest R² (0.755). T
 - **Multi-region validation:** Expand data collection across Korean, North American, and Chinese servers
 - **Deployment:** Build real-time inference tools for players, coaches, and broadcasters
 
----
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{hegazi2024lolprediction,
-  title={From Player Statistics to Victory: A Comprehensive Machine Learning 
-         Pipeline for League of Legends Match Outcome Prediction with 
-         SHAP Interpretability},
-  author={Hegazi, Ibrahim},
-  journal={arXiv preprint},
-  year={2024}
-}
-```
 
 
 ---
